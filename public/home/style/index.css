@@ -31,13 +31,10 @@ nav .project {
 }
 .Categories {
     margin-top: 20px;
-    /*margin-left: 200px;*/
     border-radius: 4px;
-    /*width: 260px;*/
     background-color: #fff;
     transition: margin-top .3s;
-    /*position: absolute;*/
-    /*top: 500px;*/
+    padding: 0 !important;
 }
 .article {
     text-align: center;
@@ -91,7 +88,7 @@ nav .project {
 .btnpad{
     margin-right:2px;
     background-color: rgb(200,200,200);
-}c
+}
 .temptext p{
     font-size: 20px;
 }
@@ -100,4 +97,7 @@ nav .project {
 }
 .main {
     margin-top: 20px;
+}
+.row .nav {
+    padding-left: 20%;
 }
