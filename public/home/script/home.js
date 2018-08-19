@@ -46,7 +46,8 @@ window.onload = async function () {
   } catch (error) {
     return;
   }
-  $('.temptext').hide();
+  $('.temparea').hide();
+
 
   $(".learn").click(function () {
     $(".list").hide();
@@ -58,9 +59,15 @@ window.onload = async function () {
         return $('.temptext').html() + htm;
       });
     });
-    $('.temptext').show();
-  });
-  $("#backs").click(function () {
-    console.log('aaa')
+    $('.temparea').show();
+
   })
-};
+  $(document).on("click","#back", function () {
+    $('.temparea').hide();
+    $(".list").show()
+    $('.temptext').html('');
+  })
+}
+
+
+
